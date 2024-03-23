@@ -2,7 +2,6 @@ name: General Inquiry
 description: Have a question or an idea? Not sure where to start? Use this template to help guide your inquiry or idea sharing.
 title: "[Inquiry]: "
 labels: ["general inquiry", "needs review"]
-assignees: ""
 body:
   - type: markdown
     attributes:
