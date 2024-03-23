@@ -2,7 +2,6 @@ name: Task Proposal
 description: Propose a new task or project to advance our DEIB objectives. Use this template to outline your proposal.
 title: "[Task Proposal]: "
 labels: ["task proposal", "review pending"]
-assignees: ""
 body:
   - type: markdown
     attributes:
