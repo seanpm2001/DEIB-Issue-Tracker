@@ -1,0 +1,44 @@
+name: General Inquiry
+description: Have a question or an idea? Not sure where to start? Use this template to help guide your inquiry or idea sharing.
+title: "[Inquiry]: "
+labels: ["general inquiry", "needs review"]
+assignees: ""
+body:
+  - type: markdown
+    attributes:
+      value: "## 🌟 Welcome!\nThank you for reaching out to our DEIB Working Group. We're here to help and encourage discussions on Diversity, Equity, Inclusion, and Belonging. Don't worry if you're not sure about something or if you're new to GitHub; this space is for learning and growing together. Fill out the sections below to get started."
+  - type: input
+    id: inquiry-title
+    attributes:
+      label: "Inquiry Title"
+      description: "Provide a brief summary of your inquiry or idea."
+      placeholder: "e.g., Question about DEIB resources"
+    validations:
+      required: true
+  - type: textarea
+    id: inquiry-description
+    attributes:
+      label: "Description"
+      description: "Please provide a detailed description of your inquiry or idea."
+      placeholder: "Describe your inquiry or idea in detail here."
+    validations:
+      required: true
+  - type: textarea
+    id: goals-objectives
+    attributes:
+      label: "Goals/Objectives"
+      description: "What are you hoping to achieve with your inquiry or idea? Any specific objectives?"
+      placeholder: "e.g., I'm looking to understand more about DEIB initiatives, find resources, or contribute to a specific project."
+    validations:
+      required: false
+  - type: textarea
+    id: relevant-links-resources
+    attributes:
+      label: "Relevant Links or Resources"
+      description: "If you have any links or resources that relate to your inquiry or idea, please share them here."
+      placeholder: "e.g., Links to articles, documents, or resources that are relevant."
+    validations:
+      required: false
+  - type: markdown
+    attributes:
+      value: "## 🤗 Thank You!\nWe appreciate you taking the time to reach out to us. Someone from our team will review your inquiry and get back to you as soon as possible."
