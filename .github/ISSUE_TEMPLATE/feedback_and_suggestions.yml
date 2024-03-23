@@ -2,7 +2,6 @@ name: Feedback and Suggestions
 description: Share your feedback or suggestions on our DEIB initiatives. Your insights help us grow and improve.
 title: "[Feedback]: "
 labels: ["feedback", "suggestions", "review needed"]
-assignees: ""
 body:
   - type: markdown
     attributes:
