@@ -1,0 +1,43 @@
+name: Quick Brainstorming Idea
+description: Got a spark of inspiration? Jot down your quick brainstorming idea here for further evaluation and discussion.
+title: "[Idea]: "
+labels: ["brainstorming", "idea", "discussion needed"]
+body:
+  - type: markdown
+    attributes:
+      value: "## 💡 Share Your Spark of Inspiration\nGot an idea that could help us improve or innovate? Don't let it fade away! Use this space to quickly jot it down. We value all contributions, big or small, and we're excited to see where your idea might lead us."
+  - type: input
+    id: idea-title
+    attributes:
+      label: "Idea Title"
+      description: "Give your idea a catchy title."
+      placeholder: "e.g., Virtual Collaboration Spaces for DEIB Workshops"
+    validations:
+      required: true
+  - type: textarea
+    id: idea-description
+    attributes:
+      label: "Idea Description"
+      description: "Describe your idea in a few sentences. What's the core concept? How did you come up with it?"
+      placeholder: "Briefly describe your idea here."
+    validations:
+      required: true
+  - type: textarea
+    id: why-important
+    attributes:
+      label: "Why It's Important"
+      description: "Why do you think this idea is important? How could it impact our DEIB efforts?"
+      placeholder: "Share why you believe this idea matters."
+    validations:
+      required: false
+  - type: textarea
+    id: potential-challenges
+    attributes:
+      label: "Potential Challenges"
+      description: "Can you foresee any challenges or obstacles in implementing this idea? It's okay if not; we're just brainstorming."
+      placeholder: "If any, list potential challenges or obstacles here."
+    validations:
+      required: false
+  - type: markdown
+    attributes:
+      value: "## 🌟 Looking Forward\nThank you for contributing your idea! Every idea is a seed that can grow into something amazing with the right care and collaboration. Let's explore this together."

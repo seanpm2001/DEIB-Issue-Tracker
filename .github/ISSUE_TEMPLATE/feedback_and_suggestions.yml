@@ -1,0 +1,43 @@
+name: Feedback and Suggestions
+description: Share your feedback or suggestions on our DEIB initiatives. Your insights help us grow and improve.
+title: "[Feedback]: "
+labels: ["feedback", "suggestions", "review needed"]
+body:
+  - type: markdown
+    attributes:
+      value: "## 🌈 We Value Your Feedback\nYour perspectives and suggestions are crucial to our continuous improvement. Whether it's something you liked, something you think we could do better, or a new idea you have, we're here to listen. Please fill out the form below to share your thoughts."
+  - type: input
+    id: feedback-summary
+    attributes:
+      label: "Feedback Summary"
+      description: "Provide a brief headline that summarizes your feedback or suggestion."
+      placeholder: "e.g., Enhancing Accessibility for Invisbile Health Conditions at WordPress Events"
+    validations:
+      required: true
+  - type: textarea
+    id: detailed-feedback
+    attributes:
+      label: "Detailed Feedback or Suggestion"
+      description: "Please provide a detailed description of your feedback or suggestions. Feel free to include any specific examples or experiences that could help illustrate your points."
+      placeholder: "Describe your feedback or suggestions in detail here."
+    validations:
+      required: true
+  - type: textarea
+    id: potential-impact
+    attributes:
+      label: "Potential Impact"
+      description: "If possible, describe how your feedback or suggestion could impact our DEIB efforts. How do you see it making a difference?"
+      placeholder: "e.g., This suggestion could help make our events more inclusive by..."
+    validations:
+      required: false
+  - type: textarea
+    id: additional-comments
+    attributes:
+      label: "Additional Comments"
+      description: "Any other comments or thoughts you'd like to share?"
+      placeholder: "Feel free to add any additional comments or thoughts here."
+    validations:
+      required: false
+  - type: markdown
+    attributes:
+      value: "## 🙏 Thank You for Your Contribution\nEvery piece of feedback and every suggestion is a step towards making our community more inclusive and effective. We appreciate you taking the time to share your thoughts with us."

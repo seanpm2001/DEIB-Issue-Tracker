@@ -1,0 +1,51 @@
+name: Task Proposal
+description: Propose a new task or project to advance our DEIB objectives. Use this template to outline your proposal.
+title: "[Task Proposal]: "
+labels: ["task proposal", "review pending"]
+body:
+  - type: markdown
+    attributes:
+      value: "## 🚀 Propose a New Task\nThank you for taking the initiative to propose a new task or project! Your contributions are crucial in advancing our goals towards Diversity, Equity, Inclusion, and Belonging. Please fill out the following sections to help us understand and evaluate your proposal."
+  - type: input
+    id: task-summary
+    attributes:
+      label: "Task Summary"
+      description: "Provide a concise overview of the proposed task."
+      placeholder: "e.g., Develop an accessibility guide for event organizers"
+    validations:
+      required: true
+  - type: textarea
+    id: background
+    attributes:
+      label: "Background"
+      description: "Explain the context and reasoning behind this task proposal. Why is it needed?"
+      placeholder: "Detail the background and motivation for this task. How does it align with our DEIB goals?"
+    validations:
+      required: true
+  - type: textarea
+    id: objectives
+    attributes:
+      label: "Objectives"
+      description: "What specific goals does this task aim to achieve?"
+      placeholder: "e.g., To increase accessibility at community events, ensuring they are more inclusive for people with disabilities."
+    validations:
+      required: true
+  - type: input
+    id: timeline
+    attributes:
+      label: "Estimated Timeline"
+      description: "What is the expected timeline for completing this task?"
+      placeholder: "e.g., 3 months from project approval"
+    validations:
+      required: false
+  - type: textarea
+    id: impact-on-deib
+    attributes:
+      label: "Impact on DEIB"
+      description: "How does this task advance our DEIB objectives? Describe its potential impact."
+      placeholder: "Explain how this task contributes to our Diversity, Equity, Inclusion, and Belonging goals."
+    validations:
+      required: true
+  - type: markdown
+    attributes:
+      value: "## 💡 Your Contribution\nWe value every proposal and the effort you put into making our community better. Thank you for your contribution! A member of our team will review your proposal and follow up for any further discussion or clarification."
